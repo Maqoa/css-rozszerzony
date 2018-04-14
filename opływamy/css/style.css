@@ -1,0 +1,12 @@
+#truskawka1{
+    float: left;
+    
+}
+#truskawka2{
+    float: right;
+}
+#truskawka1, truskawka2
+{
+    float: clear;
+}
+p:last-child{clear:right;}
