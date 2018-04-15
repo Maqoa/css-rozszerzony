@@ -1,5 +1,41 @@
-#truskawka1, #truskawka2
-{
-    transform: translate(200px, 100px)rotate(20deg) scale(2);
+img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    transition: all 2s linear;
+    transform-origin: 20% 20%;
 }
 
+.rotate-example img:hover{
+    transform: rotate(-90deg);
+}
+
+.translate-example img:hover {
+    transform: translate(-200px, -100px);
+}
+.scale-example img:hover {
+    border: 5px solid red;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    }
+
+.scale-example img:hover {
+        transform: scale(1.5);
+}
+
+
+@keyframes resize{
+    0%, 100%{
+         width: 30%;
+        height: 30%;
+        
+    }
+    50%{
+       width: 100%;
+        height: 100%;
+    }
+}
+.animation-example img{
+    animation: resize 5s infinite linear;
+}
