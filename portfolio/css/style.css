@@ -110,9 +110,12 @@ body {
 #omnie article{
     border: 0px;
 }
-#umiejestnosci h2{
+
+}
+#umiejetnosci p, #umiejetnosci .umiejetnosci-icons{
     text-align: center;
 }
-#umiejestnosci article{
+#umiejetnosci p, .umiejetnosci .umiejetnosci-icons{
     text-align: center;
+    display: inline-block;
 }
