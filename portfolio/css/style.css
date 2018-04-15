@@ -33,6 +33,7 @@ body {
     top: 0px;
     width: 100%;
     background-color: white;
+    z-index: 20;
 
 }
 
@@ -86,20 +87,19 @@ body {
     font-weight: 300;
     font-size: 2em;
 }
-<!--pierwszy div - o mnie  start -->
 #omnie{
-    
-    float: right;
     background-color: #f9fcfe;
+    overflow: hidden;
     }
 #omnie figure {
     width: 50%;
     float: left;
+    border: 0px;
+    text-align: center;
     }
 #omnie figure img {
     max-height: 300px;
     max-width: 100%;
-    float: left;
     text-align: center;
     border: 10px solid #fff;
     border-radius:  15px;
@@ -107,4 +107,12 @@ body {
 #omnie h2{
     text-align: center;
     }
-
+#omnie article{
+    border: 0px;
+}
+#umiejestnosci h2{
+    text-align: center;
+}
+#umiejestnosci article{
+    text-align: center;
+}
