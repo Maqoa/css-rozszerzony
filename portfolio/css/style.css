@@ -1,121 +1,144 @@
-/*general styles start*/
-
-span{
-    color: #1ac056;
-}
-#h1{
-    text-align: center;
-}
-#h2{
-    text-align: center;
-}
-section{
-    padding: 0px 80px 100px;
-/*top left-right bottom*/
-}
+/* GENERAL STYLES - START */
 * {
     box-sizing: border-box;
 }
-a{ 
-    transition: all 0.3s;
-}
+
 body {
-    font-family: 'Lato', sans-serif;
-    margin: 0px;
-    padding: 0px;
+    font-family: "Lato", sans-serif;
     font-weight: 300;
     color: #291f1a;
-}
-/*general styles end*/
-/*navigation start*/
-#menu-nav {
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    background-color: white;
-    z-index: 20;
-
+    margin: 0;
+    padding: 0;
 }
 
-#menu-nav ul {
-    display: inline-block;
-    float: right;
-
-}
-
-#menu-nav ul li {
-    display: inline-block;
-    padding: 20px 40px;
-
-
-}
-
-#menu-nav ul li a {
+span {
     color: #1ac056;
-    list-style: none;
-    text-decoration: none;
-    font-family: "Roboto";
-    float: right;
-
 }
-#menu-nav ul li a:hover{
+
+section {
+    padding: 0 80px 100px; /* top left-right bottom */
+}
+
+a {
+    transition: all 0.3s;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* GENERAL STYLES - END */
+
+/* NAVIGATION - START */
+
+#main-nav {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+
+#main-nav ul {
+    float: right;
+}
+
+#main-nav ul li {
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+#main-nav ul li a {
+    text-decoration: none;
+    color: #1ac056;
+    font-weight: 300;
+}
+
+#main-nav ul li a:hover {
     color: #291f1a;
 }
-/*navigation end*/
-/*header start*/
+
+/* NAVIGATION - END */
+
+/* HEADER - START */
 
 #main-header {
     background-image: url("../img/header-background.jpg");
-    height: 600px;
+    height: 500px;
     background-position: center;
     background-size: cover;
     color: #fff;
-    }
-#main-header .header-content{
+}
+
+#main-header .header-content {
     text-align: center;
     position: relative;
     top: 50%;
-    transform: translateY(-50%);}
+    transform: translateY(-50%);
+}
 
-#main-header .header-content h1{ 
-    font-size: 4em; 
-    font-family: "Roboto",sans-serif;
+#main-header .header-content h1 {
+    font-size: 4em;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
 }
-#main-header .header-content h2{ 
-    font-family: "Roboto",sans-serif;
+
+#main-header .header-content h2 {
     font-weight: 300;
     font-size: 2em;
 }
-#omnie{
+
+/* HEADER - END */
+
+
+/* ABOUT - START */
+
+#about {
     background-color: #f9fcfe;
     overflow: hidden;
-    }
-#omnie figure {
-    width: 50%;
-    float: left;
-    border: 0px;
-    text-align: center;
-    }
-#omnie figure img {
-    max-height: 300px;
-    max-width: 100%;
-    text-align: center;
-    border: 10px solid #fff;
-    border-radius:  15px;
-}
-#omnie h2{
-    text-align: center;
-    }
-#omnie article{
-    border: 0px;
 }
 
+#about figure {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 0;
 }
-#umiejetnosci p, #umiejetnosci .umiejetnosci-icons{
+
+#about figure img {
+    max-height: 350px;
+    max-width: 100%;
+    border: 10px solid #fff;
+    border-radius: 15px;
+}
+
+#about article {
+    width: 50%;
+    float: left;
+}
+
+/* ABOUT - END */
+
+/* SKILLS - START */
+
+#skills p, #skills .skills-icons {
     text-align: center;
 }
-#umiejetnosci p, .umiejetnosci .umiejetnosci-icons{
-    text-align: center;
+
+#skills .skills-icons .skills-icons-item {
     display: inline-block;
 }
+
+
+
+/* SKILLS - END */
+
+
+
+
+
+
+
+
+
+
