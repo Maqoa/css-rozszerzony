@@ -275,12 +275,42 @@ h2 {
     padding: 10px 30px;
     border: 1px solid green;
 }
-footer{
+footer
+{
     background-color: black;
     color: white;
     padding-left: 80px;
-    
-}
-footer p{
+    }
+footer p
+{
         margin: 0;
 }
+
+@media all and (max-width : 1200px)
+@media all and (max-width : 992px)
+@media all and (max-width : 768px)
+@media all and (max-width : 576px)
+    
+    
+@media all and (max-width : 768px)
+{
+        padding: 0 40px 50px;
+}
+@media all and (max-width : 576px){
+    padding: 0 10px 30px;
+}    
+    
+@media all and (max-width : 768px){
+    
+} 
+@media all and (max-width : 992px) {
+    #main-nav ul{
+        display: none;
+    }
+}
+#main-nav .toggle{
+    display: block;
+    padding: 20px;
+    text-align: right;
+}
+    
