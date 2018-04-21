@@ -128,17 +128,159 @@ h2 {
 #skills .skills-icons .skills-icons-item {
     display: inline-block;
 }
-
-
-
 /* SKILLS - END */
 
 
+.portfolio-item{
+    height: 350px;width: 33.33%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+#portfolio{
+    background-color: #f9fcfe;
+}
+#portfolio-item-1{
+    background-image: url(../img/portfolio2.jpg);
+}
+#portfolio-item-2{
+    background-image: url(../img/portfolio3.jpg);
+}
+#portfolio-item-3{
+    background-image: url(../img/portfolio4.jpg);
+}
+
+.portfolio-items{
+    text-align: center;
+    font-size: 0;
+}
+.item-mask{
+    background-color:rgba(42, 61, 79, 0.8); 
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    font-size: initial;
+}
+.item-mask:hover{
+    opacity: 1;
+    transition: all 0.3s easy-in-out;
+}
+.item-content{
+    border: 1px solid #fff;
+    margin: 10px;
+    height: 330px;
+    position: relative;
+}
+.item-content-inner{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    right: 0px;
+    padding:  5px;
+    color: #fff;
+    }
+#portfolio .project-item{
+    color: #fff;}
+
+#portfolio .portfolio-items .portfolio-item .project-link{
+    color: #fff;
+}
+.project-link:hover{
+    color: #1ac056 ;
+}
+
+/* CONTACT DATA START*/
 
 
+#contact {
+    background-color: #213b50;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+}
 
+#contact .contact-form{
+    width: 50%;
+    float: left;
+    }
+#contact .contact-data{
+    width: 50%;
+    float: left;}
+ #contact .contact-data .h2{ 
+     font-size: 38px;
+     text-align: left;}
 
+#contact .contact-data address{
+    font-style: normal;
+    margin: 72px 0;
+    line-height: 25px;
+}
+#contact .contact-data div{
+    margin-top: 50px;
+    
+}
+#contact .contact-data a{
+    color:green;
+}
+#contact .contact-data .contact-social-icons{
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    height: 38px;
+    font-size: 22px;
+    border: 1px solid white;
+    margin-right: 30px;
+    }
+#contact .contact-data .contact-social-icons:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black
+}
+#contact .contact-form{
+    margin-top: 100px;
+    
+}
+#contact .contact-form input, .contact-form textarea{
+    width: 100%;
+    background-color: blue;
+    border: none;
+    margin-bottom: 15px;
+    padding: 15px;
+    color: white;
+        } 
 
-
-
-
+#contact .contact-form input, .contact-form textarea:focus{
+    background-color: aquamarine;
+}
+#contact .contact-form input[type="submit"]{
+    background-color: green;
+    color: white;
+    width: auto;
+    float: right;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: 1px solid green;
+}
+#contact .contact-form input[type="submit"]:hover{
+    background-color: white;
+    color: green;
+    width: auto;
+    float: right;
+    transform: uppercase;
+    padding: 10px 30px;
+    border: 1px solid green;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-left: 80px;
+    
+}
+footer p{
+        margin: 0;
+}
